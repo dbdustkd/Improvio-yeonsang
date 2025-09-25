@@ -10,7 +10,6 @@ import SignupPage2 from "./pages/signup(admin)/signup4.jsx";
 import Dashboard from "./pages/main/main.jsx";
 
 export default function App() {
-  // 👉 처음엔 로그인된 상태
   const [isLoggedIn, setIsLoggedIn] = useState(false);
 
   return (
